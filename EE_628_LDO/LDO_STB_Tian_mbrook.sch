@@ -121,8 +121,8 @@ C {devices/lab_pin.sym} 800 480 0 0 {name=p8 sig_type=std_logic lab=Vref}
 C {devices/vsource.sym} 730 520 0 0 {name=V1 value="dc \{vdd\} pwl(0 0 10u \{vdd\} 200u \{vdd\} 200.5u \{1.25*vdd\} 500u \{1.25*vdd\} 500.5u \{vdd\}) "}
 C {devices/isource.sym} 110 510 2 0 {name=Iprobe1 value="dc 0 ac 0"
 }
-C {devices/vsource.sym} 190 350 1 0 {name="Vprobe1" value="dc 0 ac 1" savecurrent=false}
-C {devices/vsource.sym} 20 350 3 0 {name=Vprobe2 value="dc 0" savecurrent=false}
+C {devices/vsource.sym} 190 350 3 1 {name="Vprobe1" value="dc 0 ac 1" savecurrent=false}
+C {devices/vsource.sym} 20 350 1 1 {name=Vprobe2 value="dc 0" savecurrent=false}
 C {devices/code_shown.sym} 930 40 0 0 {name=NGSpice1 only_toplevel=false value="
 
 .param B=0 temp=27 vdd=1.8 Il=2m Res=1Meg Cap=10p Gm=20m
